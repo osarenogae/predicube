@@ -79,11 +79,14 @@ I deployed the containerized application using Docker. I made some improvements 
     
 
 ### Short description of Files
-run_docker.sh - Builds a docker image and runs the flask app from that image.
-upload_docker.sh - Uploads the Docker image to DockerHub to make it accessible to a Kubernetes cluster
-run_kubernetes.sh - deploys application on the Kubernetes cluster.
-make_prediction.sh - causes the Flask app to generate and output a prediction (inference).
-app.py - Flask app responsible for retrieving a prediction
+# run_docker.sh
+- Builds a docker image and runs the flask app from that image.
+# upload_docker.sh
+- Uploads the Docker image to DockerHub to make it accessible to a Kubernetes cluster
+# run_kubernetes.sh
+- deploys application on the Kubernetes cluster.
+# make_prediction.sh - causes the Flask app to generate and output a prediction (inference).
+# app.py - Flask app responsible for retrieving a prediction
 docker_out.txt - contains terminal output when the app is run using Docker.
 kubernetes_out.txt - contains information such as the pod the container is running on, the status of the application, the port forwarding, and the handling text.
 requirements.txt - contains a list of packages and their versions to be installed by pip.
