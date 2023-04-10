@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/osarenogae/predicube/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/osarenogae/predicube/tree/main)
 
 ## Project Overview
 
